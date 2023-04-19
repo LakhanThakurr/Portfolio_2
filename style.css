@@ -1,0 +1,441 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(214, 216, 217);
+    align-items: center;
+    padding: 11px;
+
+}
+
+.navbar>div {
+    padding: 0px 66px;
+}
+
+.mylogo {}
+
+.logo {
+    width: 105px;
+}
+
+.burger {
+    display: none;
+}
+
+.burger span {
+    display: block;
+    height: 3px;
+    width: 25px;
+    margin: 5px;
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.navlink {
+    display: flex;
+}
+
+.navlink>div {
+    padding: 0px 15px;
+}
+
+.art {
+    background-image: url("img/header/hero-home.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+.art-text {
+    width: 523px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 67px 12px;
+    align-items: center;
+}
+
+
+.art-btn {
+    display: flex;
+    width: 67%;
+    justify-content: space-between;
+}
+
+.b1 {
+
+    background-color: aliceblue;
+    height: 41px;
+    width: 198px;
+    border-radius: 8px;
+    justify-content: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.b2 {
+    height: 41px;
+    width: 132px;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.same-3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.same-text {
+    max-width: 652px;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-p {
+    padding-top: 20px;
+}
+
+.line {
+    width: 44%;
+    padding: 53px 0px;
+}
+
+/* font */
+
+.mh {
+    font-size: 52px;
+}
+
+.bh {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.st {
+    font-size: 14px;
+    color: rgb(126 126 126);
+}
+
+.st-b {
+    font-size: 14px;
+    color: rgb(23, 22, 22);
+    font-size: 14px;
+    color: rgb(23, 22, 22);
+    padding-top: 21px;
+    padding-bottom: 9px;
+}
+
+.gallery-sec {}
+
+.gallery {
+    display: grid;
+    grid-template-areas: 'a b b c' 'd b b e' 'f g h i';
+    gap: 20px;
+    padding: 0px 100px;
+}
+
+.gallery>img {
+    height: 100%;
+    width: 100%;
+    border: 0px solid;
+    border-radius: 9px;
+}
+
+.img-1 {
+    grid-area: a;
+}
+
+.img-2 {
+    grid-area: b;
+}
+
+.img-3 {
+    grid-area: c;
+}
+
+.img-4 {
+    grid-area: d;
+}
+
+.img-5 {
+    grid-area: e;
+}
+
+.img-6 {
+    grid-area: f;
+}
+
+.img-7 {
+    grid-area: g;
+}
+
+.img-8 {
+    grid-area: h;
+}
+
+.img-9 {
+    grid-area: i;
+}
+
+.container {
+    background-color: whitesmoke;
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 61px;
+
+}
+
+.s-blog {
+    max-width: 303px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.r-no {
+    font-size: 24px;
+    /* font-weight: 600; */
+    color: white;
+    background-color: #3779ce;
+    width: 34px;
+    border: 0px solid;
+    border-radius: 50%;
+}
+
+.s-b-h {
+    font-weight: 600;
+    font-size: 21px;
+    padding-top: 26px;
+    padding-bottom: 14px;
+}
+
+.achiev-row {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ach {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border: 0px solid;
+    border-radius: 50%;
+    background-color: #3779ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    color: white;
+}
+
+.a-h {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 8px 0px;
+}
+
+.t-blog {
+    align-items: center;
+    display: flex;
+    max-width: 383px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.t-img>img {
+    height: 71px;
+    border: 0px solid;
+    border-radius: 50%;
+}
+
+.client {
+    display: flex;
+    justify-content: center;
+}
+
+.client-img {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 156px;
+    grid-row-gap: 30px;
+    width: 1037px;
+    padding: 0px 53px;
+}
+
+.client-img>img {
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 117px;
+    background-color: whitesmoke;
+    padding: 0px 92px;
+    margin-top: 60px;
+}
+
+.ib {
+    color: black;
+}
+
+.f-icon>i {
+    padding: 0px 5px;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+    .navbar>div {
+        padding: 0px;
+    }
+
+    .navlink {
+        justify-content: center;
+       
+    }
+
+    .mylogo {
+        width: -webkit-fill-available;
+    }
+
+    .gallery {
+        padding: 0px 26px;
+    }
+
+    .client-img {
+        grid-column-gap: 94px;
+    }
+
+    .container {
+        padding: 0px 10px;
+    }
+
+    .footer{
+        padding: 0px 53px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .navlink {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    .same-text {
+        padding: 20px 12px;
+    }
+
+    .mylogo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   .a-t {
+        text-align: center;
+    }
+    .container {
+        padding-bottom: 10px;
+    }
+
+    .gallery {
+        display: block;
+        padding: 0px 13px;
+    }
+
+    .client-img {
+        grid-column-gap: 66px;
+        grid-template-columns: auto auto;
+    }
+
+    .service-row {
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .s-blog {
+        padding-bottom: 35px;
+    }
+
+    .achiev-row {
+        flex-wrap: wrap;
+    }
+
+    .achiev-row>div {
+        flex-basis: 36%;
+        margin-bottom: 37px;
+    }
+
+    .t-blog {
+        padding-bottom: 35px;
+    }
+
+    .footer {
+        padding: 0px 12px;
+
+    }
+
+
+    .art-btn {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .art-btn>div {
+        margin: 7px 0px;
+    }
+
+    .b2 {
+        width: 198px;
+    }
+
+
+    .mh {
+        font-size: 39px;
+    }
+
+}
